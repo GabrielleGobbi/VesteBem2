@@ -22,6 +22,9 @@ h2{
     margin: 40px 0px 20px 0px;
     font-size: 32px;
 }
+h3{
+    font-weight: 900;
+}
 
 .botao {
     text-align: center;
@@ -29,7 +32,8 @@ h2{
 
 }
 
-a{
+
+.cabecalho-link{
     text-decoration: none;
     border-radius: 5px;
     width: 280px;
@@ -41,7 +45,7 @@ a{
     margin: 10px;
          
 }
-a:hover {
+.cabecalho-link:hover {
     box-shadow: 4px 4px 4px #53687E ;
 }
 .imagemInicial{
@@ -85,10 +89,6 @@ body {
 }
 
 
-button{
-    
-}
-
 table{
     display: inline-block
 }
@@ -100,3 +100,116 @@ footer{
     padding: 20px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #53687E;
+	border-radius: 10px;
+
+}
+
+.produtos li:hover {
+	border-color: #F29C8F;
+}
+
+.produtos li:hover h3 {
+	font-size: 34px;
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+    margin-top: 10px;
+    font-weight: 900;
+
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+/*----------------formulario-------------------*/
+.imgemRedeSocial{
+    width: 60px;
+    height: 60px;
+    background: #F5E1E1; 
+    margin-left: 20px;
+    margin-right: 20px;   
+    }
+spam{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.redeSocial{
+        text-align: center;
+        margin: 50px 20px;
+    
+    }
+
+.contato{
+font-size: 20px;
+
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #F29C8F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #53687E;
+}
+
