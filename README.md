@@ -1,4 +1,4 @@
-planejamento do produto: Desenvolver um  site, com as páginas Home, Roupas e Contato. Para o qual temos 3 horas.
+Planejamento do produto: Desenvolver um  site, com as páginas Home, Roupas e Contato. Para o qual temos 3 horas.
 
 tecnologias utilizadas
 HTML
